@@ -20,7 +20,7 @@ const madLib = (params) => {
 
 // GET requests to the root of the server 
 app.get('/', (req, res) =>
-		res.json(madLib(params)); 
+		res.send(madLib(params)); 
 })
 
 // listen for requests :)
